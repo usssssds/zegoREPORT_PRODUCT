@@ -1,0 +1,302 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>即构资讯——产品动态</title>
+<link rel="icon" type="image/x-icon"  href="C:/Users/zego/Desktop/zego.ico">
+</head>
+
+<mera charset="UTF-8">
+
+<style>
+.artilce-container {
+  display: flex;
+  align-items: flex-start; /* 使图片和内容顶部对齐 */
+}
+
+.article-box {
+  display: flex;
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  background-color: #96D4D4;
+  transition: background-color 2s ease;
+  position: relative; /* 为子元素定位提供基准 */
+}
+
+.article-box:hover{
+background-color:pink;
+}
+
+
+.article-time {
+  position: absolute;
+  right: -7;
+  bottom: -10;
+  font-size: 10px;
+  color: #555;
+  padding: 4px 8px;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.article-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 10px;
+  align-self: flex-start; /* 顶部对齐 */
+}
+
+.article-content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 120px; /* 与图片同高 */
+  position: relative; /* 时间定位基准 */
+}
+
+.article-content {
+  flex: 1;
+}
+
+
+.article-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  transition: color 1s ease;
+}
+
+.article-title:hover{
+color:orange;
+}
+
+.article-summary {
+  font-size: 12px;
+  color: black;
+  line-height: 1.6;
+}
+
+
+.article-box img {
+width: 170px;
+object-fit: cover;
+margin-right: 15px;
+border-radius: 20px;
+}
+
+.article-box a {
+text-decoration: none;
+color: #333;
+font-size: 16px;
+line-height: 1.5;
+flex: 1;
+}
+
+.article-box a:hover {
+color: red;
+text-decoration: none;
+}
+
+h1{
+font-size:xx-small;
+font-family:Roboto;
+border:3px solid powderblue;
+border-radius:20px;
+display:inline-block;
+padding:10px;
+margin:5px
+}
+
+p{
+font_family:Noto Serif SC;
+text-align:jutify;
+font-size:large;
+}
+
+a:visited {
+color: purple ;
+background-color:transparent;
+text-decoration:none;
+}
+
+a:link {
+color: blue;
+background-color:transparent;
+text-decoration: none;
+}
+   
+a:hover {
+color: red;
+background-color:transparent;
+text-decoration: underline;
+}
+    
+a:active {
+color: orange;
+text-decoration: underline;
+background-color:transparent
+}
+
+.btn-link:link,.btn-link:visited{
+background-color: DarkSlateBlue;
+color: white;
+padding: 15px 0;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 7px;
+border: 3px solid white;   flex: 1;
+min-width: 50px;
+box-sizing: border-box;
+}
+
+
+
+.btn-link:hover,.btn-link:active{
+background-color:pink;
+}
+
+.button-row{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+gap:10px
+max-width:100%
+margin-top:20px;
+flex-wrap:wrap;
+}
+</style>
+
+
+<h1>
+产品动态
+</h1>
+<br>
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/04/zego-aiagent.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2315.html" target="_blank">
+即构实时互动AI Agent 2.0重磅升级！从「够用」到「好用」，六大核心优势让你的AI交互体验飙升...
+      </a>
+      <div class="article-summary">
+        随着今年春节DeepSeek的爆火和快速出圈，CES大会上对AI硬件的广泛关注，AI已逐步融入社会生活的各个层面。与AI的交互方式也从文字逐渐扩展至实时语音、视频等多模态交互方...
+      </div>
+    </div>
+    <div class="article-time">2025-04-29</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/01/yingyonghegui.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2052.html" target="_blank">
+        AI Agent、游戏、短剧加持下的社交新玩法，如何构建应用合...
+      </a>
+      <div class="article-summary">
+        AI Agent、游戏、短剧……这些无疑是过去一年互联网领域最炙手可热的几个话题。在大模型成本降低、多模态能力持续加强之下，可以预见未来AI将重点朝着应用落地的方向发展...
+      </div>
+    </div>
+    <div class="article-time">2025-01-15</div>
+  </div>
+</div>
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2024/12/2024121110062253.webp">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2005.html" target="_blank">
+        出海乘风破浪，应用合规先行！
+      </a>
+      <div class="article-summary">
+        在当今数字化浪潮下，中国互联网出海呈现出蓬勃发展之势。众多应用凭借创新功能与优质服务，积极拓展海外市场，在全球范围内吸引了海量用户。然而，在这一进程中，应用合规...
+      </div>
+    </div>
+    <div class="article-time">2024-12-11</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2024/11/Purio.webp">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/1944.html" target="_blank">
+        即构科技发布Purio AI音频引擎，重塑音质更纯净、更保真...
+      </a>
+      <div class="article-summary">
+        如今，实时语音互动已成为生活日常的一部分。人们可以随时随地与好友语音通话，刷直播并随时连麦，在游戏中和好友开黑互动，或与网友在线K歌合唱、抢麦……然而，复杂多变...
+
+      </div>
+    </div>
+    <div class="article-time">2024-11-19</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2024/07/l3.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/1596.html" target="_blank">
+        直播产品中的“六边形战士”来了！ZEGO 超低延迟直播，高质...
+      </a>
+      <div class="article-summary">
+        直播行业“内卷”之下，越来越多的细分场景直播正在涌现。面对多元化的直播间，用户对于直播的体验要求也比以前更高。对于画质差、卡顿多等体验差的直播间，用户的容忍度越来...
+
+      </div>
+    </div>
+    <div class="article-time">2024-07-23</div>
+  </div>
+</div>
+
+
+<div class="article-box">
+  <img class="article-image" src="	https://market-blogs.zego.im/wp-content/uploads/2024/07/2024071109353128.webp">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/1556.html" target="_blank">
+       即构赛事直播解决方案，为用户还原“现场感”纯享体验...
+      </a>
+      <div class="article-summary">
+        “共饮欢聚时，畅享足球夜”。北京时间 7 月 11 日凌晨，欧洲杯半决赛结果出炉：英格兰补时阶段 2-1 绝杀荷兰，另外一场焦点战中，西班牙以 2-1 击败夺冠热门法国，与英格兰会…
+
+      </div>
+    </div>
+    <div class="article-time">2024-07-11</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2024/05/gptrtc.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/1401.html" target="_blank">
+       RTC 将成 AGI 远程实时互动的必备能力...
+      </a>
+      <div class="article-summary">
+        “OpenAI 在春季发布会上发布的最新旗舰大模型 GPT-4o，在前代 GPT-4 只能理解和输出文本信息的基础上，GPT-4o 能支持低延迟的实时对话，“o”是Omni……
+
+      </div>
+    </div>
+    <div class="article-time">2024-05-30</div>
+  </div>
+</div>
+
+
